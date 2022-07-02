@@ -1,0 +1,32 @@
+.social {
+  .reset();
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.social__item {
+  margin-right: 15px;
+}
+.social__link {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  
+  &--wa {
+    background-image: url(../img/icons/whatsapp.svg);
+  }
+  &--vk {
+    background-image: url(../img/icons/vk.svg);
+  }
+  &--tg {
+    background-image: url(../img/icons/telegram.svg);
+  }
+  
+  &:hover,
+  &:active {
+    filter: invert(30%) sepia(77%) saturate(4282%) hue-rotate(342deg) brightness(88%) contrast(114%);
+  }
+}

@@ -5,6 +5,9 @@
   <meta name="robots" content="noindex">
   <meta  name="viewport" content="width=device-width,initial-scale=1">
   <title>Title</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.1/jquery.fancybox.min.css">
   <link rel="stylesheet" href="css/owl.carousel.min.css">
   <link rel="stylesheet" href="css/owl.theme.default.min.css">
@@ -49,10 +52,14 @@
           <div class="header__user">
             <div class="search">
               <button type="button" class="search__open" title="Поиск"></button>
-              <form action="#" class="search__form">
-                <input type="text" class="search__input" placeholder="Что вы ищете?">
-                <button type="submit" class="search__btn"></button>
-              </form>
+              <div class="search__wrap">
+                <div class="wrapper">
+                  <form action="#" class="search__form">
+                    <input type="text" class="search__input" placeholder="Что вы ищете?">
+                    <button type="submit" class="search__btn"></button>
+                  </form>
+                </div>
+              </div>
             </div>
             <a href="#" class="header__cabinet" title="Кабинет"></a>
             <a href="#" class="header__icon header__icon--like" title="Избранное"></a>
@@ -371,6 +378,7 @@
   <script src="js/jquery-3.2.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.1/jquery.fancybox.min.js"></script>
   <script src="js/owl.carousel.min.js"></script>
+  <script src="js/script.js"></script>
 
 <!-- Slider -->
   <script>
