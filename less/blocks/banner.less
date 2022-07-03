@@ -1,0 +1,85 @@
+.banner {
+  margin-bottom: 80px;
+}
+.banner__wrap {
+  position: relative;
+}
+.banner__slide {
+  position: relative;
+  width: 100%;
+  height: 330px;
+}
+.banner__link {
+  display: block;
+  height: 100%;
+  text-decoration: none;
+  color: #fff;
+  overflow: hidden;
+  border-radius: 5px;
+  
+  img {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    object-fit: cover;
+  }
+}
+.banner__text {
+  padding: 50px 15px;
+  padding-bottom: 70px;
+  max-width: 290px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.banner__title {
+  margin-top: 0;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.banner__btn {
+  width: 160px;
+  height: 40px;
+  margin-top: auto;
+  font-weight: 400;
+  border: 1px solid #fff;
+  background-color: rgba(255,255,255,0);
+  
+  &:hover,
+  &:active {
+    color: #000;
+    background-color: #fff;
+  }
+}
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  background-image: url(../img/icons/next.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.owl-theme .owl-nav [class*=owl-]:hover,
+.owl-theme .owl-nav [class*=owl-]:active {
+  background-image: url(../img/icons/next.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: rgba(255, 253, 239,0.5);
+}
+.owl-carousel .owl-nav button.owl-next {
+  right: -50px;
+}
+.owl-carousel .owl-nav button.owl-prev {
+  left: -50px;
+  transform: rotate(180deg);
+}
