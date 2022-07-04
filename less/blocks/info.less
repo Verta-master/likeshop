@@ -1,0 +1,29 @@
+.info {
+  margin-bottom: 80px;
+  
+  .title {
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  ul {
+    .reset();
+    list-style: none;
+    
+    li {
+      position: relative;
+      padding-left: 20px;
+      margin-bottom: 5px;
+      
+      &::before {
+        content: "";
+        position: absolute;
+        top: 5px;
+        left: 0;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: rgba(0,0,0,0.25);
+      }
+    }
+  }
+}
