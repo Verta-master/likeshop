@@ -24,11 +24,6 @@
     pointer-events: none;
   }
 }
-.pages__link--prev,
-.pages__link--next {
-  font-size: 24px;
-  background-color: #f8f8f8;
-}
 a.pages__link {
   .transition();
   
@@ -36,6 +31,17 @@ a.pages__link {
   &:active {
     background-color: #f8f8f8;
     .transition();
+  }
+}
+.pages__link--prev,
+.pages__link--next {
+  font-size: 24px;
+  background-color: #f8f8f8;
+  
+  &:hover,
+  &:active {
+    color: #fff;
+    background-color: #000 !important;
   }
 }
 .nav {
