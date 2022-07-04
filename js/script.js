@@ -4,12 +4,12 @@ $('.header__catalog').click(function() {
   $('.menu').slideToggle();
 })
 
-//if (window.innerWidth < 766) {
-//  $('.menu__link').click(function() {
-//    $('.menu__list').slideToggle();
-//    $('.menu').removeClass('menu--opened');
-//  })
-//}
+if (window.innerWidth < 1200) {
+  $('.footer__title').click(function() {
+    $(this).next().slideToggle();
+    $(this).toggleClass('footer__title--top');
+  })
+}
 
 //Search
 $('.search__open').click(function() {
