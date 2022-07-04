@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="robots" content="noindex">
+  <meta  name="viewport" content="width=device-width,initial-scale=1">
+  <title>Title</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.1/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+  <header class="header">
+    <div class="wrapper">
+      <div class="header__left">
+        <a href="index.html" class="header__logo">
+          <img src="img/images/logo.png" alt="Likeashop">
+        </a>
+        <button type="button" class="header__catalog">Каталог</button>
+      </div>
+      <div class="header__right">
+        <ul class="header__menu">
+          <li class="header__item header__item--active"><a href="#">О нас</a></li>
+          <li class="header__item"><a href="#">Доставка и оплата</a></li>
+          <li class="header__item"><a href="#">Возврат и обмен</a></li>
+          <li class="header__item"><a href="#">Новости</a></li>
+          <li class="header__item"><a href="#">Контакты</a></li>
+        </ul>
+        <div class="header__wrap">
+          <div class="header__contacts">
+            <a href="tel:+74996499539" class="contactlink contactlink--phone">+7 499-649-95-39</a>
+            <p class="contactlink contactlink--clock">с 10:00 до 21:00</p>
+          </div>
+          <div class="header__social">
+            <a href="mailto:info@likeashop.ru" class="contactlink contactlink--email">info@likeashop.ru</a>
+            <ul class="social">
+              <li class="social__item">
+                <a href="#" class="social__link social__link--wa" title="WhatsApp"></a>
+              </li>
+              <li class="social__item">
+                <a href="#" class="social__link social__link--vk" title="VK"></a>
+              </li>
+              <li class="social__item">
+                <a href="#" class="social__link social__link--tg" title="Telegram"></a>
+              </li>
+            </ul>
+          </div>
+          <div class="header__user">
+            <div class="search">
+              <button type="button" class="search__open" title="Поиск"></button>
+              <div class="search__wrap">
+                <div class="wrapper">
+                  <form action="#" class="search__form">
+                    <input type="text" class="search__input" placeholder="Что вы ищете?">
+                    <button type="submit" class="search__btn"></button>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <a href="#" class="header__cabinet" title="Кабинет"></a>
+            <a href="#" class="header__icon header__icon--like" title="Избранное"></a>
+            <a href="#" class="header__icon header__icon--cart" title="Корзина"><span class="header__number">2</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav class="menu">
+      <div class="wrapper">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a href="#" class="menu__link">Техника для кухни</a>
+            <div class="menu__dropdown">
+              <ul class="menu__sublist">
+                <li class="menu__subitem"><a href="#">Приготовление пищи</a></li>
+                <li class="menu__subitem"><a href="#">Приготовление кофе</a></li>
+                <li class="menu__subitem"><a href="#">Мелкая техника для кухни</a></li>
+                <li class="menu__subitem"><a href="#">Посуда и аксессуары</a></li>
+                <li class="menu__subitem"><a href="#">Крупная бытовая техника</a></li>
+              </ul>
+              <figure class="menu__img">
+                <img src="img/images/659_kapsulnye-kofemashiny.png" alt="Техника для кухни">
+              </figure>
+            </div>
+          </li>
+          <li class="menu__item menu__item--active">
+            <a href="#" class="menu__link">Техника для дома</a>
+            <div class="menu__dropdown">
+              <ul class="menu__sublist">
+                <li class="menu__subitem"><a href="#">Техника для уборки</a></li>
+                <li class="menu__subitem"><a href="#">Уход за одеждой</a></li>
+                <li class="menu__subitem"><a href="#">Товары для дома и дачи</a></li>
+                <li class="menu__subitem"><a href="#">Очистители и увлажнители воздуха</a></li>
+                <li class="menu__subitem"><a href="#">Климатическая техника</a></li>
+              </ul>
+              <figure class="menu__img">
+                <img src="img/images/660_roboty-pylesosy.png" alt="Техника для дома">
+              </figure>
+            </div>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Здоровье и красота</a>
+            <div class="menu__dropdown">
+              <ul class="menu__sublist">
+                <li class="menu__subitem"><a href="#">Товары для стрижки и бритья</a></li>
+                <li class="menu__subitem"><a href="#">Укладка волос и стайлинг</a></li>
+                <li class="menu__subitem"><a href="#">Товары для здоровья</a></li>
+                <li class="menu__subitem"><a href="#">Эпиляторы и женские электробритвы</a></li>
+                <li class="menu__subitem"><a href="#">Массажеры</a></li>
+              </ul>
+              <figure class="menu__img">
+                <img src="img/images/658_elektrobritvy-muzhskie.png" alt="Здоровье и красота">
+              </figure>
+            </div>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Электроника и ТВ</a>
+            <div class="menu__dropdown">
+              <ul class="menu__sublist">
+                <li class="menu__subitem"><a href="#">Смартфоны</a></li>
+                <li class="menu__subitem"><a href="#">Аудио</a></li>
+                <li class="menu__subitem"><a href="#">Телевизоры</a></li>
+                <li class="menu__subitem"><a href="#">Акссесуары для электроники</a></li>
+                <li class="menu__subitem"><a href="#">Наушники и Bluetooth-гарнитуры</a></li>
+                <li class="menu__subitem"><a href="#">Умные часы и браслеты</a></li>
+                <li class="menu__subitem"><a href="#">Видеокамеры</a></li>
+                <li class="menu__subitem"><a href="#">Электрические самокаты</a></li>
+                <li class="menu__subitem"><a href="#">Игровые приставки</a></li>
+                <li class="menu__subitem"><a href="#">Системы видеонаблюдения</a></li>
+                <li class="menu__subitem"><a href="#">Освещение</a></li>
+              </ul>
+              <figure class="menu__img">
+                <img src="img/images/headphones_PNG101982.png" alt="Электроника и ТВ">
+              </figure>
+            </div>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Компьютерная техника</a>
+            <div class="menu__dropdown">
+              <ul class="menu__sublist">
+                <li class="menu__subitem"><a href="#">Мониторы</a></li>
+                <li class="menu__subitem"><a href="#">Принтеры и МФУ</a></li>
+                <li class="menu__subitem"><a href="#">Ноутбуки</a></li>
+                <li class="menu__subitem"><a href="#">Компьютерные акссесуары</a></li>
+                <li class="menu__subitem"><a href="#">Мультимедиа-проекторы</a></li>
+                <li class="menu__subitem"><a href="#">Сетевое оборудование Wi-Fi и Bluetooth</a></li>
+              </ul>
+              <figure class="menu__img">
+                <img src="img/images/headphones_PNG101982.png" alt="Компьютерная техника">
+              </figure>
+            </div>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Детские товары</a>
+            <div class="menu__dropdown">
+              <ul class="menu__sublist">
+                <li class="menu__subitem"><a href="#">Игрушки для девочек</a></li>
+                <li class="menu__subitem"><a href="#">Игрушки для мальчиков</a></li>
+                <li class="menu__subitem"><a href="#">Игрушечные роботы и трансформеры</a></li>
+                <li class="menu__subitem"><a href="#">Товары для мам и малышей</a></li>
+                <li class="menu__subitem"><a href="#">Детские автокресла</a></li>
+              </ul>
+              <figure class="menu__img">
+                <img src="img/images/4687_konstruktory-lego.jpg" alt="Детские товары">
+              </figure>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  
+  <main>
+    <nav class="breadcrumbs">
+      <div class="wrapper">
+        <a href="#" class="breadcrumbs__link">Главная</a>
+        <a href="#" class="breadcrumbs__link">Интернет-магазин</a>
+        <a href="#" class="breadcrumbs__link">Детские товары</a>
+        <a href="#" class="breadcrumbs__link">Конструкторы Lego</a>
+        <span class="breadcrumbs__link">Конструктор LEGO NINJAGO 71756 Подводный «Дар Судьбы»</span>
+      </div>
+    </nav>
+    
+    <section class="card">
+      <div class="wrapper">
+        <h1>Конструктор LEGO NINJAGO 71756 Подводный «Дар Судьбы»</h1>
+        <div class="card__wrap">
+          <div class="card__view">
+            <div class="catalog__labels">
+              <span class="catalog__label">Хит</span>
+            </div>
+            <a href="#" class="catalog__like" title="Добавить в избранное"></a>
+            <div id="big" class="owl-carousel owl-theme card__slider">
+              <div class="item card__slide"><img src="img/images/4687_konstruktory-lego.jpg" alt="Конструктор LEGO"></div>
+              <div class="item card__slide"><img src="img/images/5616_konstruktor-lego-ninjago-71756-podv.png" alt="Конструктор LEGO"></div>
+              <div class="item card__slide"><img src="img/images/lego-1.jpg" alt="Конструктор LEGO"></div>
+              <div class="item card__slide"><img src="img/images/lego-2.jpg" alt="Конструктор LEGO"></div>
+            </div>
+            <div id="thumbs" class="owl-carousel owl-theme card__thumbs">
+              <div class="item card__thumb"><img src="img/images/4687_konstruktory-lego.jpg" alt="Конструктор LEGO"></div>
+              <div class="item card__thumb"><img src="img/images/5616_konstruktor-lego-ninjago-71756-podv.png" alt="Конструктор LEGO"></div>
+              <div class="item card__thumb"><img src="img/images/lego-1.jpg" alt="Конструктор LEGO"></div>
+              <div class="item card__thumb"><img src="img/images/lego-2.jpg" alt="Конструктор LEGO"></div>
+            </div>
+          </div>
+          
+          <div class="card__info">
+            <p>Артикул: 151148</p>
+            <p>Производитель: <a href="#">Lego</a></p>
+            <div class="rating">
+              <img src="img/icons/star.svg" alt="rating">
+              <img src="img/icons/star.svg" alt="rating">
+              <img src="img/icons/star.svg" alt="rating">
+              <img src="img/icons/star.svg" alt="rating">
+              <img src="img/icons/star.svg" alt="rating">
+              <span>(12)</span>
+            </div>
+            <figure class="card__img">
+              <img src="img/images/869_eac-new-prozrach.png" alt="Lego">
+            </figure>
+            <table class="card__table">
+              <tr>
+                <td>Тип</td>
+                <td>классический</td>
+              </tr>
+              <tr>
+                <td>Материал</td>
+                <td>пластик</td>
+              </tr>
+              <tr>
+                <td>пластик</td>
+                <td>от 9 лет</td>
+              </tr>
+              <tr>
+                <td>Количество элементов</td>
+                <td>1159 шт.</td>
+              </tr>
+              <tr>
+                <td>Количество фигурок</td>
+                <td>10 шт.</td>
+              </tr>
+              <tr>
+                <td>Развитие навыков</td>
+                <td>логика и мышление, моторика и ловкость</td>
+              </tr>
+              <tr>
+                <td>Серия</td>
+                <td>Ninjago</td>
+              </tr>
+              <tr>
+                <td>Тема</td>
+                <td>НиндзяГо</td>
+              </tr>
+            </table>
+            <a href="#" class="title-link">Все характеристики</a>
+          </div>
+          
+          <div class="card__order">
+            <div class="card__price">
+              <div class="card__newprice">11 902 &#8381;</div>
+              <div class="card__oldprice">12 500 &#8381;</div>
+            </div>
+            <div class="catalog__promocode">-5% по коду счастье</div>
+            <div class="card__icons">
+              <p class="card__icon card__icon--cart">Ближайшая доставка: завтра, 99 р.</p>
+              <p class="card__icon card__icon--delivery">Доставка за МКАД: 99 р.+25 р./км</p>
+            </div>
+            <div class="card__line">
+              <div class="number">
+                <button type="button" class="number__change">-</button>
+                <input type="text" class="number__value" value="1">
+                <button type="button" class="number__change">+</button>
+              </div>
+              <a href="#" class="catalog__buy">В корзину</a>
+            </div>
+            <a href="#" class="btn catalog__click">Купить в 1 клик</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="tabs" id="tabs">
+      <div class="wrapper">
+        <div class="tabs__wrap">
+          <div class="tabs__options">
+            <ul class="tabs__title">
+              <li class="tabs__name"><a href="#tabs-1">Описание</a></li>
+              <li class="tabs__name"><a href="#tabs-2">Характеристики</a></li>
+            </ul>
+            <div class="tabs__field" id="tabs-1">
+
+            </div>
+            <div class="tabs__field" id="tabs-2">
+
+            </div>
+          </div>
+          <div class="tabs__form">
+            <div class="order">
+              <div class="order__wrap">
+                <p class="title-2">Заявка на подбор аксессуаров для компьютеров</p>
+                <p>Наш консультант перезвонит и лично подберёт для Вас нужный товар.</p>
+                <p>Для этого оставьте свой номер телефона</p>
+                <form action="#" class="order__form">
+                  <input type="text" class="order__input" placeholder="Ваш телефон">
+                  <button type="submit" class="order__btn">Перезвонить</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="catalog">
+      <div class="wrapper">
+        <p class="title">Рекомендуемые товары</p>
+        <div class="catalog__wrap">
+          <div class="owl-carousel owl-theme catalog__slider">
+            <div class="item catalog__slide">
+              <div class="catalog__labels">
+                <span class="catalog__label">Хит</span>
+              </div>
+              <a href="#" class="catalog__like" title="Добавить в избранное"></a>
+              <a href="#" class="catalog__link">
+                <figure class="catalog__img">
+                  <img src="img/images/4669_chaynik-xiaomi-mi-kettle-global-belyy.jpg" alt="Чайник Xiaomi Mi Electric Kettle Global">
+                </figure>
+                <span class="catalog__promocode">-5% по коду счастье</span>
+                <p class="title-2">Чайник Xiaomi Mi Electric Kettle Global, белый</p>
+              </a>
+              <div class="catalog__info">
+                <div class="rating">
+                  <img src="img/icons/star.svg" alt="rating">
+                  <img src="img/icons/star.svg" alt="rating">
+                  <img src="img/icons/star.svg" alt="rating">
+                  <img src="img/icons/star.svg" alt="rating">
+                  <img src="img/icons/star.svg" alt="rating">
+                  <span>(12)</span>
+                </div>
+                <div class="catalog__price">
+                  <p class="catalog__newprice">3 313 &#8381;</p>
+                  <p class="catalog__oldprice">3 620 &#8381;</p>
+                </div>
+                <a href="#" class="btn catalog__btn">В корзину</a>
+                <a href="#" class="catalog__click">Купить в 1 клик</a>
+              </div>
+            </div>
+            <div class="item catalog__slide">
+              <div class="catalog__labels">
+                <span class="catalog__label catalog__label--sale">Акция</span>
+                <span class="catalog__label catalog__label--new">Новинка</span>
+              </div>
+              <a href="#" class="catalog__like" title="Добавить в избранное"></a>
+              <a href="#" class="catalog__link">
+                <figure class="catalog__img">
+                  <img src="img/images/3538_pylesos-tefal-ty6545rh.jpg" alt="Пылесос LG VK69662N, синий">
+                </figure>
+                <p class="title-2">Пылесос LG VK69662N, синий</p>
+              </a>
+              <div class="catalog__info">
+                <div class="rating">
+                  <img src="img/icons/star.svg" alt="rating">
+                  <img src="img/icons/star.svg" alt="rating">
+                  <img src="img/icons/star.svg" alt="rating">
+                  <img src="img/icons/star.svg" alt="rating">
+                  <img src="img/icons/star.svg" alt="rating">
+                  <span>(12)</span>
+                </div>
+                <div class="catalog__price">
+                  <p class="catalog__newprice">3 313 &#8381;</p>
+                </div>
+                <a href="#" class="btn catalog__btn">В корзину</a>
+                <a href="#" class="catalog__click">Купить в 1 клик</a>
+              </div>
+            </div>
+            <div class="item catalog__slide">
+              <div class="catalog__labels">
+                <span class="catalog__label">Хит</span>
+              </div>
+              <a href="#" class="catalog__like" title="Добавить в избранное"></a>
+              <a href="#" class="catalog__link">
+                <figure class="catalog__img">
+                  <img src="img/images/4669_chaynik-xiaomi-mi-kettle-global-belyy.jpg" alt="Чайник Xiaomi Mi Electric Kettle Global">
+                </figure>
+                <span class="catalog__promocode">-5% по коду счастье</span>
+                <p class="title-2">Чайник Xiaomi Mi Electric Kettle Global, белый</p>
+              </a>
+              <div class="catalog__info">
+                <div class="rating">
+                  <img src="img/icons/star.svg" alt="rating">
+                  <img src="img/icons/star.svg" alt="rating">
+                  <img src="img/icons/star.svg" alt="rating">
+                  <img src="img/icons/star.svg" alt="rating">
+                  <img src="img/icons/star.svg" alt="rating">
+                  <span>(12)</span>
+                </div>
+                <div class="catalog__price">
+                  <p class="catalog__newprice">3 313 &#8381;</p>
+                  <p class="catalog__oldprice">3 620 &#8381;</p>
+                </div>
+                <a href="#" class="btn catalog__btn">В корзину</a>
+                <a href="#" class="catalog__click">Купить в 1 клик</a>
+              </div>
+            </div>
+            <div class="item catalog__slide">
+              <div class="catalog__labels">
+                <span class="catalog__label catalog__label--sale">Акция</span>
+                <span class="catalog__label catalog__label--new">Новинка</span>
+              </div>
+              <a href="#" class="catalog__like" title="Добавить в избранное"></a>
+              <a href="#" class="catalog__link">
+                <figure class="catalog__img">
+                  <img src="img/images/3538_pylesos-tefal-ty6545rh.jpg" alt="Пылесос LG VK69662N, синий">
+                </figure>
+                <p class="title-2">Пылесос LG VK69662N, синий</p>
+              </a>
+              <div class="catalog__info">
+                <div class="rating">
+                  <img src="img/icons/star.svg" alt="rating">
+                  <img src="img/icons/star.svg" alt="rating">
+                  <img src="img/icons/star.svg" alt="rating">
+                  <img src="img/icons/star.svg" alt="rating">
+                  <img src="img/icons/star.svg" alt="rating">
+                  <span>(12)</span>
+                </div>
+                <div class="catalog__price">
+                  <p class="catalog__newprice">3 313 &#8381;</p>
+                </div>
+                <a href="#" class="btn catalog__btn">В корзину</a>
+                <a href="#" class="catalog__click">Купить в 1 клик</a>
+              </div>
+            </div>
+            <div class="item catalog__slide">
+              <div class="catalog__labels">
+                <span class="catalog__label">Хит</span>
+              </div>
+              <a href="#" class="catalog__like" title="Добавить в избранное"></a>
+              <a href="#" class="catalog__link">
+                <figure class="catalog__img">
+                  <img src="img/images/4669_chaynik-xiaomi-mi-kettle-global-belyy.jpg" alt="Чайник Xiaomi Mi Electric Kettle Global">
+                </figure>
+                <span class="catalog__promocode">-5% по коду счастье</span>
+                <p class="title-2">Чайник Xiaomi Mi Electric Kettle Global, белый</p>
+              </a>
+              <div class="catalog__info">
+                <div class="rating">
+                  <img src="img/icons/star.svg" alt="rating">
+                  <img src="img/icons/star.svg" alt="rating">
+                  <img src="img/icons/star.svg" alt="rating">
+                  <img src="img/icons/star.svg" alt="rating">
+                  <img src="img/icons/star.svg" alt="rating">
+                  <span>(12)</span>
+                </div>
+                <div class="catalog__price">
+                  <p class="catalog__newprice">3 313 &#8381;</p>
+                  <p class="catalog__oldprice">3 620 &#8381;</p>
+                </div>
+                <a href="#" class="btn catalog__btn">В корзину</a>
+                <a href="#" class="catalog__click">Купить в 1 клик</a>
+              </div>
+            </div>
+            <div class="item catalog__slide">
+              <div class="catalog__labels">
+                <span class="catalog__label catalog__label--sale">Акция</span>
+                <span class="catalog__label catalog__label--new">Новинка</span>
+              </div>
+              <a href="#" class="catalog__like" title="Добавить в избранное"></a>
+              <a href="#" class="catalog__link">
+                <figure class="catalog__img">
+                  <img src="img/images/3538_pylesos-tefal-ty6545rh.jpg" alt="Пылесос LG VK69662N, синий">
+                </figure>
+                <p class="title-2">Пылесос LG VK69662N, синий</p>
+              </a>
+              <div class="catalog__info">
+                <div class="rating">
+                  <img src="img/icons/star.svg" alt="rating">
+                  <img src="img/icons/star.svg" alt="rating">
+                  <img src="img/icons/star.svg" alt="rating">
+                  <img src="img/icons/star.svg" alt="rating">
+                  <img src="img/icons/star.svg" alt="rating">
+                  <span>(12)</span>
+                </div>
+                <div class="catalog__price">
+                  <p class="catalog__newprice">3 313 &#8381;</p>
+                </div>
+                <a href="#" class="btn catalog__btn">В корзину</a>
+                <a href="#" class="catalog__click">Купить в 1 клик</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <footer class="footer">
+    <div class="wrapper">
+      <div class="footer__wrap">
+        <div class="footer__shop">
+          <div class="footer__logo">
+            <img src="img/images/logo-black.png" alt="Likeashop">
+          </div>
+          <ul class="footer__payment">
+            <li><img src="img/icons/visa.svg" alt="visa"></li>
+            <li><img src="img/icons/mastercard.svg" alt="mastercard"></li>
+            <li><img src="img/icons/mir.svg" alt="mir"></li>
+          </ul>
+        </div>
+        <div class="footer__catalog">
+          <p class="footer__title">Каталог продукции</p>
+          <ul class="footer__menu">
+            <li class="footer__item"><a href="#">Техника для кухни</a></li>
+            <li class="footer__item"><a href="#">Техника для дома</a></li>
+            <li class="footer__item"><a href="#">Здоровье и красота</a></li>
+            <li class="footer__item"><a href="#">Электроника и ТВ</a></li>
+            <li class="footer__item"><a href="#">Компьютерная техника</a></li>
+            <li class="footer__item"><a href="#">Детские товары</a></li>
+          </ul>
+        </div>
+        <div class="footer__info">
+          <p class="footer__title">Информация</p>
+          <ul class="footer__menu">
+            <li class="footer__item"><a href="#">О нас</a></li>
+            <li class="footer__item"><a href="#">Доставка и оплата</a></li>
+            <li class="footer__item"><a href="#">Возврат и обмен</a></li>
+            <li class="footer__item"><a href="#">Новости</a></li>
+            <li class="footer__item"><a href="#">Контакты</a></li>
+          </ul>
+        </div>
+        <div class="footer__contacts">
+          <p class="footer__title">Контакты</p>
+          <a href="tel:+74996499539" class="contactlink contactlink--phone">+7 499-649-95-39</a>
+          <a href="mailto:info@likeashop.ru" class="contactlink contactlink--email">info@likeashop.ru</a>
+          <ul class="social">
+            <li class="social__item">
+              <a href="#" class="social__link social__link--wa" title="WhatsApp"></a>
+            </li>
+            <li class="social__item">
+              <a href="#" class="social__link social__link--vk" title="VK"></a>
+            </li>
+            <li class="social__item">
+              <a href="#" class="social__link social__link--tg" title="Telegram"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="wrapper">
+        <a href="#">Политика конфиденциальности</a>
+        <p>Разработано в <a href="#">"LidStudio"</a></p>
+        <span>&copy; Все права зарезервированы, 2022</span>
+      </div>
+    </div>
+  </footer>
+  
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.1/jquery.fancybox.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="js/owl-thumbs-sync.js"></script>
+  <script src="js/script.js"></script>
+  
+  <!-- Slider -->
+  <script>
+    $('.catalog__slider').owlCarousel({
+      loop: true,
+      nav: true,
+      dots: false,
+      navText:["",""],
+      margin: 20,
+      responsive:{
+        0:{
+          items: 1
+        },
+        480:{
+          items: 2,
+        },
+        700:{
+          items: 3,
+        },
+        1200:{
+          items: 4,
+        },
+      }
+    })
+  </script>
+  
+  <!-- Tabs -->
+  <script>
+    $(function() {
+      $("#tabs").tabs();
+    });
+  </script>
+</body>
+</html>
