@@ -67,6 +67,114 @@
   .news__img {
     height: 200px;
   }
+  .filter__drop {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    display: block;
+    width: 0;
+    padding: 0;
+    background-color: #fff;
+    border-radius: 5px 0 0 5px;
+    box-shadow: 0px 11px 32px 0px rgba(0, 0, 0, 0.05);
+    opacity: 0;
+    .transition();
+    
+    &--open {
+      opacity: 1;
+      z-index: 2000;
+      width: 280px;
+      .transition();
+    }
+  }
+  .filter__wrap {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    padding-top: 50px;
+  }
+  .filter__close {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-image: url(../img/icons/cross-black.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  .filter__btn,
+  .sidebar__btn {
+    display: flex;
+    width: 100%;
+    border-radius: 5px;
+    height: 50px;
+    
+    &:hover,
+    &:active {
+      color: #fff;
+      background-color: #000;
+    }
+  }
+  .sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .sidebar__category,
+  .filter {
+    margin-right: 20px;
+    width: 280px;
+  }
+  .sidebar__menu {
+    display: none;
+    position: absolute;
+    z-index: 100;
+    top: 100%;
+    left: 0;
+    width: 280px;
+    padding: 10px;
+    padding-top: 20px;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.1);
+  }
+  .sidebar__category {
+    position: relative;
+  }
+  .wrapper__columns {
+    display: block;
+  }
+  .sidebar,
+  .wrapper__content {
+    width: 100%;
+  }
+  .catalog__list {
+    margin-right: 0;
+    justify-content: space-around;
+  }
+  .catalog__item {
+    margin-right: 0;
+  }
+  .card__wrap {
+    flex-wrap: wrap;
+  }
+  .card__view,
+  .card__info {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .card__order {
+    margin-left: auto;
+    margin-right: auto;
+    width: 380px;
+    max-width: 100%;
+  }
 }
 //----------------------------------------
 @media (max-width: 1000px) {
@@ -131,6 +239,7 @@
   .catalog__link .title-2 {
     font-size: 20px;
   }
+  .order::after,
   .search__open,
   .header__cabinet,
   .header__icon,
@@ -150,6 +259,7 @@
     background-size: contain;
     background-position: center;
   }
+  .tabs__options,
   .header__right,
   .header__user {
     width: 100%;
@@ -187,6 +297,16 @@
   }
   .header {
     padding-bottom: 10px;
+  }
+  .tabs__wrap {
+    display: block;
+  }
+  .tabs__form {
+    width: 380px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
   }
 }
 //----------------------------------------
@@ -227,6 +347,8 @@
   .news__img {
     height: 190px;
   }
+  .filter,
+  .sidebar__category,
   .footer__shop,
   .footer__catalog,
   .footer__info,
@@ -251,5 +373,35 @@
   .banner,
   .category {
     margin-bottom: 50px;
+  }
+  .nav__link {
+    width: 100%;
+    max-width: 100%;
+    font-size: 14px;
+    line-height: 1.2;
+    text-align: right;
+  }
+  .nav {
+    display: block;
+  }
+  .order {
+    padding: 20px;
+  }
+  .number__change,
+  .number__value {
+    width: 40px;
+  }
+  .tabs__name {
+    font-size: 14px;
+    
+    a {
+      padding: 12px 22px;
+    }
+  }
+  .order .title-2 {
+    font-size: 20px;
+  }
+  .title, h1, h2 {
+    font-size: 32px;
   }
 }
