@@ -1,0 +1,142 @@
+.form {
+  width: 100%;
+}
+.form__promocode {
+  display: flex;
+  margin-bottom: 40px;
+}
+.form__code {
+  width: 400px;
+  height: 50px;
+  padding: 0 15px;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 5px 0 0 5px;
+}
+.form__codebtn {
+  width: 200px;
+  height: 50px;
+  color: @red;
+  border: 1px solid @red;
+  background-color: #fff;
+  border-radius: 0 5px 5px 0;
+  
+  &:hover,
+  &:active {
+    color: #fff;
+    background-color: @red;
+  }
+}
+.form__radio {
+  display: none;
+}
+.form__radiolabel {
+  position: relative;
+  display: block;
+  padding-left: 60px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  
+  &::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    border: 1px solid #000;
+  }
+}
+.form__radio:checked + .form__radiolabel::before {
+  background-color: #000;
+}
+.form__select,
+.form__input,
+.form__message {
+  display: block;
+  width: 100%;
+  padding: 0 15px;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 5px;
+}
+.form__input {
+  height: 50px;
+}
+.form__message {
+  height: 120px;
+  resize: none;
+  padding: 10px 15px;
+}
+.form__line {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  
+  .form__input {
+    width: 32%;
+  }
+  .form__message {
+    width: 66%;
+  }
+}
+.form__select {
+  height: 50px;
+  appearance: none;
+  background-image: url(../img/icons/arrow-down.svg);
+  background-repeat: no-repeat;
+  background-position: right 15px center;
+  background-size: 10px 10px;
+
+  option[disabled] {
+    display: none;
+  }
+  &::-ms-expand {
+    color: transparent;
+    border: none;
+    background-color: transparent;
+  }
+}
+.form__block {
+  width: 32%;
+  
+  .form__input--date {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+.form__pay {
+  display: flex;
+  flex-wrap: wrap;
+  
+  .form__radiolabel {
+    width: 33.33%;
+  }
+}
+.form__btn {
+  width: 280px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  color: #fff;
+  background-color: @red;
+  border: 1px solid @red;
+  
+  &:hover,
+  &:active {
+    color: #000;
+    border-color: #000;
+  }
+}
+.form__comment {
+  text-align: center;
+  
+  a {
+    text-decoration: underline;
+    
+    &:hover,
+    &:active {
+      text-decoration: none;
+    }
+  }
+}
